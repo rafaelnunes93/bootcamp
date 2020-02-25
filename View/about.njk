@@ -1,22 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Rafael nunes</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="./Styles/HomePor.css" />
-</head>
+{% extends "layout.html" %}
 
-<body>
-    <header>
-        <div class="links">
-            <a href="./index.html">Sobre</a>
-            <a href="./Pages/Portifolio.html">Portifolio</a>
-            <a href="./Pages/Habilidades.html">Habilidades</a>
-            <a href="./Pages/Experiencias.html">Experiências</a>
-            <a href="./Pages/Contato.html">Contato</a>
-            </div>            
-    </header>
+{% block head %}
+    <title>Sobre-Rafael nunes</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+{% endblock %}  
+
+{% block content %}
 
     <div id="wrapper">
         <img src="https://avatars3.githubusercontent.com/u/32659691?s=400&u=c98ef8a24ad59e90647718b8c4b8ca3287770d08&v=4" alt="Rafael Nunes">
@@ -74,8 +65,5 @@
 
 </div>
     
-<script src="scripts/modal.js"></script>
-</body>
-
-
-</html>
+<script src="/modal.js"></script>
+{% endblock %}

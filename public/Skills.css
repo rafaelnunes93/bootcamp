@@ -1,0 +1,100 @@
+.container{
+    position: relative;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1000px;  
+    height: auto; 
+    padding-bottom:100px;
+    
+}
+
+
+.container .box{
+    width: 17%;
+    float: left;
+    margin-top: 35px;
+    padding: 10px;
+}
+
+.container .box h2{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.BoxSkills{
+    position: relative;
+    width: 100%;
+}
+
+
+.container .box .chart{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 32px;
+    line-height: 120px;
+    color: #fff;
+}
+
+
+.container .box canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.containerSkill{
+    position: absolute;
+    margin: auto;
+    width: 100%;  
+    height: auto; 
+}
+
+
+.skillbar {
+	position:relative;
+	margin-bottom:15px;
+	width:100%;
+	background:#373737;
+	height:35px;
+	border-radius:3px;
+	transition:0.1s linear;
+    transition-property:width, background-color;    
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.skillbar span {
+	display:block;
+	padding:0 20px;
+	height:35px;
+    line-height:35px;
+    font-weight: bold;
+    color: black;
+}
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	border-radius:3px;
+}
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:rgba(0, 0, 0, 1);
+}
+
+.SkillsBoxContainer{
+    padding-top: 50px;
+    position: relative;
+    float: left;
+    width: 100%;  
+    padding-bottom:200px;
+}
